@@ -8,6 +8,7 @@
 - 各受講生の名前を記入してください。
 - KashiuchiSotaro
 - KashiuchiSotaroSub
+- Ryoki Shintaku
 
 ## 数値解析ソフト
 - 与えられた整数の特性を解析し、表示するソフト
