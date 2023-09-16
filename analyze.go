@@ -42,6 +42,13 @@ func isEvenNumber(number int) {
 }
 
 func isPrimeNumber(number int) {
+	var i int
+	for i = 2; i < number; i++ {
+		if number%i == 0 {
+			return
+		}
+	}
+	fmt.Println("素数です！")
 	return
 }
 
