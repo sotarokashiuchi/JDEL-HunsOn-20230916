@@ -46,7 +46,7 @@ func isEvenNumber(number int) {
 
 func isPrimeNumber(number int) {
 	var i int
-	if number == 1 {
+	if number <= 1 {
 		return
 	}
 	for i = 2; i < number; i++ {
