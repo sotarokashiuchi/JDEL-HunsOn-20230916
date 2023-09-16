@@ -6,6 +6,8 @@
 
 ## 開発者
 - 各受講生の名前を記入してください。
+- Izuuuu
+- kiiii
 - KashiuchiSotaro
 - KashiuchiSotaroSub
 - Ryoki Shintaku
