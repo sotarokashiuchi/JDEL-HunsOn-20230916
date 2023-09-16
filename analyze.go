@@ -38,14 +38,17 @@ func isOddNumber(number int) {
 }
 
 func isEvenNumber(number int) {
-	if number%2==0{
-		fmt.Println(number,"は偶数です")
+	if number%2 == 0 {
+		fmt.Println(number, "は偶数です")
 	}
 	return
 }
 
 func isPrimeNumber(number int) {
 	var i int
+	if number == 1 {
+		return
+	}
 	for i = 2; i < number; i++ {
 		if number%i == 0 {
 			return
