@@ -38,6 +38,9 @@ func isOddNumber(number int) {
 }
 
 func isEvenNumber(number int) {
+	if number%2==0{
+		fmt.Println(number,"は偶数です")
+	}
 	return
 }
 
