@@ -38,8 +38,8 @@ func isOddNumber(number int) {
 }
 
 func isEvenNumber(number int) {
-	if number%2==0{
-		fmt.Println(number,"は偶数です")
+	if number%2 == 0 {
+		fmt.Println(number, "は偶数です")
 	}
 	return
 }
@@ -49,6 +49,15 @@ func isPrimeNumber(number int) {
 }
 
 func isPerfectNumber(number int) {
+	var i, sum int
+	for i = 1; i < number; i++ {
+		if number%i == 0 {
+			sum += i
+		}
+	}
+	if sum == number {
+		fmt.Println(number, "は完全数でえす")
+	}
 	return
 }
 
