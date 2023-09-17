@@ -72,5 +72,24 @@ func isPerfectNumber(number int) {
 }
 
 func isAmicableNumbers(x, y int) {
+	var i int
+	var sum int
+	var sum3 int
+	for i = 1; i < x; i++ {
+		if x%i == 0 {
+			sum = sum + i
+		}
+	}
+	if sum == y {
+		for i = 1; i < y; i++ {
+			if y%i == 0 {
+				sum3 = sum3 + i
+			}
+		}
+		if sum3 == x {
+			fmt.Println("親和数です！")
+		}
+
+	}
 	return
 }
